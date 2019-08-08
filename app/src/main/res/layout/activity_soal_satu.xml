@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsatu"
+    tools:context=".SoalSatuActivity">
+
+    <ImageView
+        android:id="@+id/soalpertama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/dialoglogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:shadowColor="@color/colorPrimary"
+        android:text="Apa Kepanjangan dari HTML ?"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/jwb1s1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/soalpertama"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btngb"
+            android:text="A. Hypertext markup language "
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/jwb2s1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/jwb1s1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:text="b. Markup language"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/jwb3s1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/jwb2s1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:text="c. hipertext"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/jwb4s1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/jwb3s1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:text="D. laguange markup"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsatu"
+    tools:context=".SoalKesepuluhActivity">
+
+    <ImageView
+        android:id="@+id/soalkesepuluh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/dialoglogo" />
+
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="Perintah pada dasar linux untuk "
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/b"
+        android:layout_below="@id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="membuat direktori baru adalah ..."
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="300dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/soalkesepuluh"
+            android:id="@+id/jwb1s10"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btngb"
+            android:layout_marginBottom="10dp"
+            android:text="A. ls" />
+
+        <Button
+            android:layout_below="@id/jwb1s10"
+            android:id="@+id/jwb2s10"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="b. mkdir" />
+
+        <Button
+            android:layout_below="@id/jwb2s10"
+            android:id="@+id/jwb3s10"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="c. cd" />
+
+        <Button
+            android:layout_below="@id/jwb3s10"
+            android:id="@+id/jwb4s10"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="D. Semua jawaban benar-" />
+    </LinearLayout>
+
+</RelativeLayout>

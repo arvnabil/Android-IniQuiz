@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layoutpertanyaan"
+    tools:context=".SoalSatuActivity">
+
+    <TextView
+        android:id="@+id/soalpertama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Apa Kepanjangan dari HTML ?" />
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_below="@id/soalpertama"
+            android:id="@+id/jawab1"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="A. Hypertext " />
+
+        <Button
+            android:layout_below="@id/jawab1"
+            android:id="@+id/jawab2"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="b. deyana" />
+
+        <Button
+            android:layout_below="@id/jawab2"
+            android:id="@+id/jawab3"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="c. pak sony" />
+
+        <Button
+            android:layout_below="@id/jawab3"
+            android:id="@+id/jawab4"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="c. pak Guspri" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="149dp"
+        android:layout_height="34dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btnback"
+        android:background="@drawable/next"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="149dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/back"
+        android:textSize="18sp" />
+
+</RelativeLayout>

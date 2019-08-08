@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdua"
+    tools:context=".SoalkesebelasActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/soalkesebelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/dialoglogo" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Apakah Sistem operasi " />
+
+    <TextView
+        android:layout_below="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="pertama di android ?" />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/soalkesebelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/editJawaban11"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/editteks"
+            android:gravity="center"
+            android:hint="Isilah Jawaban Disini"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/editJawaban11"
+            android:id="@+id/btnnext11"
+            android:textSize="15sp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btnyb"
+            android:layout_marginBottom="10dp"
+            android:text="next" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdua"
+    tools:context=".SoalKeLimaActivity">
+
+    <ImageView
+        android:id="@+id/soalkelima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/dialoglogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Pengaturan layout aplikasi Android
+        dilakukan melalui file ?" />
+
+    <LinearLayout
+        android:layout_marginTop="300dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/jwb1s5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/soalkelima"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btngb"
+            android:text="A. File xml "
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/jwb2s5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/jwb1s5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:text="b. file jar"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/jwb3s5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/jwb2s5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:text="c. file java"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/jwb4s5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/jwb3s5"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:text="d. Semua jawaban benar"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

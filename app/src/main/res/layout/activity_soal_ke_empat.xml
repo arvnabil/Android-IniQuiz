@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsatu"
+    tools:context=".SoalKeEmpatActivity">
+
+    <ImageView
+        android:id="@+id/soalkeempat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/dialoglogo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Tujuan dari e-bussines ialah ?" />
+
+    <LinearLayout
+        android:layout_marginTop="300dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/soalkeempat"
+            android:id="@+id/jwb1s4"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btngb"
+            android:layout_marginBottom="10dp"
+            android:text="A. Transformasi proses bisnis " />
+
+        <Button
+            android:layout_below="@id/jwb1s4"
+            android:id="@+id/jwb2s4"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="b. Memperbanyak teman" />
+
+        <Button
+            android:layout_below="@id/jwb2s4"
+            android:id="@+id/jwb3s4"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="c. Menyelesaikan Tugas" />
+
+        <Button
+            android:layout_below="@id/jwb3s4"
+            android:id="@+id/jwb4s4"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btngb"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="c. Sebuah keinginan" />
+    </LinearLayout>
+
+</RelativeLayout>

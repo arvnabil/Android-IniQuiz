@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdua"
+    tools:context=".SoalKeduabelasActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/soalkeduabelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/dialoglogo" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Protocol umum yang" />
+
+    <TextView
+        android:layout_below="@id/a"
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="sering digunakan oleh " />
+
+    <TextView
+        android:layout_below="@id/b"
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:textColor="@color/yellow"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text=" mailserver adalah" />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/soalkeduabelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/editJawaban12"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="@drawable/editteks"
+            android:gravity="center"
+            android:hint="Isilah Jawaban Disini"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/editJawaban12"
+            android:id="@+id/btnnext12"
+            android:textSize="15sp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btnyb"
+            android:layout_marginBottom="10dp"
+            android:text="next" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnback12"
+        android:layout_width="149dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btnback"
+        android:textSize="18sp" />
+
+</RelativeLayout>
